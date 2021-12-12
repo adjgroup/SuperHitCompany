@@ -80,7 +80,7 @@
   --bs-font-monospace: en-header;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: en-content;
-  --bs-body-font-size: 1rem;
+  --bs-body-font-size: 0.8rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
@@ -11594,7 +11594,7 @@ body {
   font-family: en-header;
   font-size: 2.5rem;
   line-height: 2.5rem;
-  letter-spacing: 0.8rem;
+  letter-spacing: 0.3rem;
   background: rgba(255, 255, 255);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -11734,3 +11734,7 @@ body {
 .kr-content{
   font-family: kr-content;
 }
+
+/* .font-resize{
+  font-size: 0.8rem;
+} */
